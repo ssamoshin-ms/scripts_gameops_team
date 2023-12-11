@@ -1,0 +1,13 @@
+turn on environment
+1. install env
+- python3 -m venv .venv
+2. activate env
+- source .venv/bin/activate
+3. install packages
+- pip3 install -r requirements.txt
+
+secrets
+1. install lib
+- pip3 install python-dotenv
+2. create file .env
+
