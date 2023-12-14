@@ -2,3 +2,6 @@ google-api-python-client
 oauth2client
 python-dotenv
 google_auth_oauthlib
+
+
+google-cloud-secret-manager==2.16.3
