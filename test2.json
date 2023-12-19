@@ -1,0 +1,622 @@
+[
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_01",
+    "TaskType": "arrive",
+    "TaskParams": "Type:string|Param:22222_ny23_map_1",
+    "TaskStages": "Count:1|Score:70",
+    "TextLocKey": "22222_ny23_stages_01_hint",
+    "Icon": "i_22222_ny23_map_1",
+    "Map": "map,22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_02",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:bridge_petals_pink_0-01_flip",
+    "TaskStages": "Count:1|Score:100",
+    "TextLocKey": "22222_ny23_stages_02_hint",
+    "Icon": "bridge_petals_pink_0-01_flip",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_03",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:f_xmas1_trolley_red_0-01",
+    "TaskStages": "Count:1|Score:50",
+    "TextLocKey": "22222_ny23_stages_03_hint",
+    "Icon": "f_xmas1_trolley_red_0-01",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_04",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_gate_fest_buildside*",
+    "TaskStages": "Count:1|Score:50\nCount:2|Score:750",
+    "TextLocKey": "22222_ny23_stages_04_hint",
+    "Icon": "d_gate_fest_0-02",
+    "Map": "22222_ny23_map_1,22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_05",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:bridge_pit_0-01",
+    "TaskStages": "Count:1|Score:150",
+    "TextLocKey": "22222_ny23_stages_05_hint",
+    "Icon": "bridge_pit_0-01",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_06",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_east_easter_tree_0-02",
+    "TaskStages": "Count:1|Score:50",
+    "TextLocKey": "22222_ny23_stages_06_hint",
+    "Icon": "d_east_easter_tree_0-02",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_07",
+    "TaskType": "item_get",
+    "TaskParams": "Type:string|Param:22222_ny23_i_mushroom",
+    "TaskStages": "Count:5|Score:80\nCount:30|Score:150\nCount:240|Score:200",
+    "TextLocKey": "22222_ny23_stages_07_hint",
+    "Icon": "i_sum_mushroom",
+    "Map": "22222_ny23_map_1,22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_08",
+    "TaskType": "item_get",
+    "TaskParams": "Type:string|Param:22222_ny23_i_fruit",
+    "TaskStages": "Count:30|Score:150\nCount:80|Score:160\nCount:310|Score:350",
+    "TextLocKey": "22222_ny23_stages_08_hint",
+    "Icon": "22222_ny23_i_fruit",
+    "Map": "22222_ny23_map_1,22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_09",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:f_ny23_loom_0-01",
+    "TaskStages": "Count:1|Score:150",
+    "TextLocKey": "22222_ny23_stages_09_hint",
+    "Icon": "f_ny23_loom_0-01",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_10",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_ny23_nest_01",
+    "TaskStages": "Count:1|Score:100",
+    "TextLocKey": "22222_ny23_stages_10_hint",
+    "Icon": "d_ny23_nest_01",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_11",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:bridge_ice_pit_0-02",
+    "TaskStages": "Count:1|Score:140",
+    "TextLocKey": "22222_ny23_stages_11_hint",
+    "Icon": "bridge_ice_pit_0-02",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_12",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_boat_0-01",
+    "TaskStages": "Count:1|Score:300",
+    "TextLocKey": "22222_ny23_stages_12_hint",
+    "Icon": "d_boat_0-01",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_13",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:bridge_snow_stairs_buildsite*",
+    "TaskStages": "Count:1|Score:300\nCount:2|Score:400",
+    "TextLocKey": "22222_ny23_stages_13_hint",
+    "Icon": "bridge_snow_stairs_0-01",
+    "Map": "22222_ny23_map_1,22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_14",
+    "TaskType": "to_shop",
+    "TaskParams": "Type:string|Param:decor_22222_ny23_winter_picnic_01",
+    "TaskStages": "Count:1|Score:350",
+    "TextLocKey": "22222_ny23_stages_14_hint",
+    "Icon": "decor_22222_ny23_winter_picnic_01",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_15",
+    "TaskType": "arrive",
+    "TaskParams": "Type:string|Param:22222_ny23_map_2",
+    "TaskStages": "Count:1|Score:250",
+    "TextLocKey": "22222_ny23_stages_15_hint",
+    "Icon": "i_22222_ny23_map_2",
+    "Map": "22222_ny23_map_1,22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_16",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_ny23_cauldron_0-01",
+    "TaskStages": "Count:1|Score:100",
+    "TextLocKey": "22222_ny23_stages_16_hint",
+    "Icon": "d_ny23_cauldron_0-01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_17",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_ny23_toy_horse_01",
+    "TaskStages": "Count:1|Score:400",
+    "TextLocKey": "22222_ny23_stages_17_hint",
+    "Icon": "d_ny23_toy_horse_01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_18",
+    "TaskType": "item_get",
+    "TaskParams": "Type:string|Param:22222_ny23_i_bear",
+    "TaskStages": "Count:5|Score:400\nCount:85|Score:450\nCount:170|Score:500",
+    "TextLocKey": "22222_ny23_stages_18_hint",
+    "Icon": "22222_ny23_i_bear",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_19",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:bridge_pit_0-03_flip",
+    "TaskStages": "Count:1|Score:500",
+    "TextLocKey": "22222_ny23_stages_19_hint",
+    "Icon": "bridge_pit_0-03_flip",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_20",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:dolphin_stalagmit_01",
+    "TaskStages": "Count:1|Score:350",
+    "TextLocKey": "22222_ny23_stages_20_hint",
+    "Icon": "dolphin_stalagmit_01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_21",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_ny23_shovel_snow_02",
+    "TaskStages": "Count:1|Score:550",
+    "TextLocKey": "22222_ny23_stages_21_hint",
+    "Icon": "d_ny23_shovel_snow_02",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_22",
+    "TaskType": "item_get",
+    "TaskParams": "Type:string|Param:22222_ny23_i_balloon",
+    "TaskStages": "Count:15|Score:300\nCount:75|Score:400\nCount:155|Score:500",
+    "TextLocKey": "22222_ny23_stages_22_hint",
+    "Icon": "22222_ny23_i_balloon",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_24",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_box_space_0-03",
+    "TaskStages": "Count:1|Score:300",
+    "TextLocKey": "22222_ny23_stages_24_hint",
+    "Icon": "d_box_space_0-03",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_25",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_ny23_alcove_01",
+    "TaskStages": "Count:1|Score:600",
+    "TextLocKey": "22222_ny23_stages_25_hint",
+    "Icon": "d_ny23_alcove_01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_26",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:stone_snow_gate_0-01",
+    "TaskStages": "Count:1|Score:350",
+    "TextLocKey": "22222_ny23_stages_26_hint",
+    "Icon": "stone_snow_gate_0-01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_27",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_ny23_castle_01",
+    "TaskStages": "Count:1|Score:100",
+    "TextLocKey": "22222_ny23_stages_27_hint",
+    "Icon": "d_ny23_castle_01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_28",
+    "TaskType": "to_shop",
+    "TaskParams": "Type:string|Param:decor_22222_ny23_husky_01",
+    "TaskStages": "Count:1|Score:500",
+    "TextLocKey": "22222_ny23_stages_28_hint",
+    "Icon": "decor_22222_ny23_husky_01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_29",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:bonus_gate_buildside*",
+    "TaskStages": "Count:5|Score:500\nCount:10|Score:700\nCount:15|Score:1200",
+    "TextLocKey": "22222_ny23_stages_29_hint",
+    "Icon": "bonus_gate_0-01",
+    "Map": "22222_ny23_map_1,22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_30",
+    "TaskType": "destroy_object",
+    "TaskParams": "Type:string|Param:tree_snow*",
+    "TaskStages": "Count:10|Score:300\nCount:20|Score:500\nCount:40|Score:700",
+    "TextLocKey": "22222_ny23_stages_30_hint",
+    "Icon": "22222_ny23.tree_fir_21_snow.lm3m47",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_31",
+    "TaskType": "destroy_object",
+    "TaskParams": "Type:string|Param:tree_maple_red*",
+    "TaskStages": "Count:5|Score:250\nCount:15|Score:350\nCount:26|Score:500",
+    "TextLocKey": "22222_ny23_stages_31_hint",
+    "Icon": "22222_ny23.tree_maple_32.7ncc76",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_med_high_22222_ny23",
+    "ID": "22222_ny23_stages_32",
+    "TaskType": "destroy_object",
+    "TaskParams": "Type:string|Param:tree_scary_fir*",
+    "TaskStages": "Count:10|Score:300\nCount:25|Score:450\nCount:50|Score:650",
+    "TextLocKey": "22222_ny23_stages_32_hint",
+    "Icon": "22222_ny23.tree_scary_fir_21.cfxwbg",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_01",
+    "TaskType": "arrive",
+    "TaskParams": "Type:string|Param:22222_ny23_map_1",
+    "TaskStages": "Count:1|Score:70",
+    "TextLocKey": "22222_ny23_stages_01_hint",
+    "Icon": "i_22222_ny23_map_1",
+    "Map": "map,22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_02",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:bridge_petals_pink_0-01_flip",
+    "TaskStages": "Count:1|Score:100",
+    "TextLocKey": "22222_ny23_stages_02_hint",
+    "Icon": "bridge_petals_pink_0-01_flip",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_03",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:f_xmas1_trolley_red_0-01",
+    "TaskStages": "Count:1|Score:50",
+    "TextLocKey": "22222_ny23_stages_03_hint",
+    "Icon": "f_xmas1_trolley_red_0-01",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_04",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_gate_fest_buildside*",
+    "TaskStages": "Count:1|Score:50\nCount:2|Score:750",
+    "TextLocKey": "22222_ny23_stages_04_hint",
+    "Icon": "d_gate_fest_0-02",
+    "Map": "22222_ny23_map_1,22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_05",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:bridge_pit_0-01",
+    "TaskStages": "Count:1|Score:150",
+    "TextLocKey": "22222_ny23_stages_05_hint",
+    "Icon": "bridge_pit_0-01",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_06",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_east_easter_tree_0-02",
+    "TaskStages": "Count:1|Score:50",
+    "TextLocKey": "22222_ny23_stages_06_hint",
+    "Icon": "d_east_easter_tree_0-02",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_07",
+    "TaskType": "item_get",
+    "TaskParams": "Type:string|Param:22222_ny23_i_mushroom",
+    "TaskStages": "Count:5|Score:80\nCount:30|Score:150\nCount:240|Score:150",
+    "TextLocKey": "22222_ny23_stages_07_hint",
+    "Icon": "i_sum_mushroom",
+    "Map": "22222_ny23_map_1,22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_08",
+    "TaskType": "item_get",
+    "TaskParams": "Type:string|Param:22222_ny23_i_fruit",
+    "TaskStages": "Count:30|Score:150\nCount:80|Score:200\nCount:310|Score:350",
+    "TextLocKey": "22222_ny23_stages_08_hint",
+    "Icon": "22222_ny23_i_fruit",
+    "Map": "22222_ny23_map_1,22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_09",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:f_ny23_loom_0-01",
+    "TaskStages": "Count:1|Score:150",
+    "TextLocKey": "22222_ny23_stages_09_hint",
+    "Icon": "f_ny23_loom_0-01",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_10",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_ny23_nest_01",
+    "TaskStages": "Count:1|Score:100",
+    "TextLocKey": "22222_ny23_stages_10_hint",
+    "Icon": "d_ny23_nest_01",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_11",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:bridge_ice_pit_0-02",
+    "TaskStages": "Count:1|Score:100",
+    "TextLocKey": "22222_ny23_stages_11_hint",
+    "Icon": "bridge_ice_pit_0-02",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_12",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_boat_0-01",
+    "TaskStages": "Count:1|Score:300",
+    "TextLocKey": "22222_ny23_stages_12_hint",
+    "Icon": "d_boat_0-01",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_13",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:bridge_snow_stairs_buildsite*",
+    "TaskStages": "Count:1|Score:300\nCount:2|Score:600",
+    "TextLocKey": "22222_ny23_stages_13_hint",
+    "Icon": "bridge_snow_stairs_0-01",
+    "Map": "22222_ny23_map_1,22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_14",
+    "TaskType": "to_shop",
+    "TaskParams": "Type:string|Param:decor_22222_ny23_winter_picnic_01",
+    "TaskStages": "Count:1|Score:350",
+    "TextLocKey": "22222_ny23_stages_14_hint",
+    "Icon": "decor_22222_ny23_winter_picnic_01",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_15",
+    "TaskType": "arrive",
+    "TaskParams": "Type:string|Param:22222_ny23_map_2",
+    "TaskStages": "Count:1|Score:250",
+    "TextLocKey": "22222_ny23_stages_15_hint",
+    "Icon": "i_22222_ny23_map_2",
+    "Map": "22222_ny23_map_1,22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_16",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_ny23_cauldron_0-01",
+    "TaskStages": "Count:1|Score:100",
+    "TextLocKey": "22222_ny23_stages_16_hint",
+    "Icon": "d_ny23_cauldron_0-01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_17",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_ny23_toy_horse_01",
+    "TaskStages": "Count:1|Score:400",
+    "TextLocKey": "22222_ny23_stages_17_hint",
+    "Icon": "d_ny23_toy_horse_01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_18",
+    "TaskType": "item_get",
+    "TaskParams": "Type:string|Param:22222_ny23_i_bear",
+    "TaskStages": "Count:5|Score:400\nCount:85|Score:300\nCount:170|Score:150",
+    "TextLocKey": "22222_ny23_stages_18_hint",
+    "Icon": "22222_ny23_i_bear",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_19",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:bridge_pit_0-03_flip",
+    "TaskStages": "Count:1|Score:500",
+    "TextLocKey": "22222_ny23_stages_19_hint",
+    "Icon": "bridge_pit_0-03_flip",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_20",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:dolphin_stalagmit_01",
+    "TaskStages": "Count:1|Score:500",
+    "TextLocKey": "22222_ny23_stages_20_hint",
+    "Icon": "dolphin_stalagmit_01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_21",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_ny23_shovel_snow_02",
+    "TaskStages": "Count:1|Score:550",
+    "TextLocKey": "22222_ny23_stages_21_hint",
+    "Icon": "d_ny23_shovel_snow_02",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_22",
+    "TaskType": "item_get",
+    "TaskParams": "Type:string|Param:22222_ny23_i_balloon",
+    "TaskStages": "Count:15|Score:300\nCount:75|Score:400\nCount:155|Score:700",
+    "TextLocKey": "22222_ny23_stages_22_hint",
+    "Icon": "22222_ny23_i_balloon",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_24",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_box_space_0-03",
+    "TaskStages": "Count:1|Score:400",
+    "TextLocKey": "22222_ny23_stages_24_hint",
+    "Icon": "d_box_space_0-03",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_25",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_ny23_alcove_01",
+    "TaskStages": "Count:1|Score:600",
+    "TextLocKey": "22222_ny23_stages_25_hint",
+    "Icon": "d_ny23_alcove_01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_26",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:stone_snow_gate_0-01",
+    "TaskStages": "Count:1|Score:600",
+    "TextLocKey": "22222_ny23_stages_26_hint",
+    "Icon": "stone_snow_gate_0-01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_27",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:d_ny23_castle_01",
+    "TaskStages": "Count:1|Score:700",
+    "TextLocKey": "22222_ny23_stages_27_hint",
+    "Icon": "d_ny23_castle_01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_28",
+    "TaskType": "to_shop",
+    "TaskParams": "Type:string|Param:decor_22222_ny23_husky_01",
+    "TaskStages": "Count:1|Score:700",
+    "TextLocKey": "22222_ny23_stages_28_hint",
+    "Icon": "decor_22222_ny23_husky_01",
+    "Map": "22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_29",
+    "TaskType": "upgrade",
+    "TaskParams": "Type:string|Param:bonus_gate_buildside*",
+    "TaskStages": "Count:5|Score:100",
+    "TextLocKey": "22222_ny23_stages_29_hint",
+    "Icon": "bonus_gate_0-01",
+    "Map": "22222_ny23_map_1,22222_ny23_map_2"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_30",
+    "TaskType": "destroy_object",
+    "TaskParams": "Type:string|Param:tree_snow*",
+    "TaskStages": "Count:10|Score:50",
+    "TextLocKey": "22222_ny23_stages_30_hint",
+    "Icon": "22222_ny23.tree_fir_21_snow.lm3m47",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_31",
+    "TaskType": "destroy_object",
+    "TaskParams": "Type:string|Param:tree_maple_red*",
+    "TaskStages": "Count:5|Score:100",
+    "TextLocKey": "22222_ny23_stages_31_hint",
+    "Icon": "22222_ny23.tree_maple_32.7ncc76",
+    "Map": "22222_ny23_map_1"
+  },
+  {
+    "configuration_name": "stages_low_22222_ny23",
+    "ID": "22222_ny23_stages_32",
+    "TaskType": "destroy_object",
+    "TaskParams": "Type:string|Param:tree_scary_fir*",
+    "TaskStages": "Count:10|Score:50",
+    "TextLocKey": "22222_ny23_stages_32_hint",
+    "Icon": "22222_ny23.tree_scary_fir_21.cfxwbg",
+    "Map": "22222_ny23_map_2"
+  }
+]

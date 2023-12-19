@@ -1,5 +1,5 @@
 import json
-from core.stages.prepare_data_from_google import PrepareDataFromGoogle
+from core.stages.prepare_data_google import PrepareDataFromGoogle
 from core.stages.models.task_model import TaskModel, TaskStagesModel, TaskParamsModel
 from core.stages.mappings import mapping_name_from_tasks_sheet as names_from_sheet
 
@@ -45,7 +45,7 @@ class ParserTasksFromOutputFile:
         return True
 
     def parse_and_validate_data(self):
-        data_from_google = self.prepare_data_from_google(self.spread_sheet_id, self.sheet_name).get_data_fromm_google()
+        data_from_google = self.prepare_data_from_google(self.spread_sheet_id, self.sheet_name).get_data_from_google()
         # print(data_from_google)
 
         for item in data_from_google:

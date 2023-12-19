@@ -9,7 +9,7 @@ class PrepareDataFromGoogle:
         self.spread_sheet_id = spread_sheet_id
         self.sheet_name = sheet_name
 
-    def get_data_fromm_google(self):
+    def get_data_from_google(self):
         try:
             info = self.google_sheets_client.get_all_sheets(self.spread_sheet_id)
         except:
