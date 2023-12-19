@@ -1,5 +1,4 @@
 from services.google.google_sheets_api_client import GSheetsClient
-import json
 
 
 class PrepareDataFromGoogle:
@@ -49,7 +48,6 @@ class PrepareDataFromGoogle:
                 for index, value in enumerate(row):
                     obj[data['values'][0][index]] = value
                 result.append(obj)
-            # print(json.dumps(result))
             return result
 
 

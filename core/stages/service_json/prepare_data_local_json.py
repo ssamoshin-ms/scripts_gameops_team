@@ -10,9 +10,9 @@ class PrepareDataFromLocalJson:
 
     def get_data_from_json(self):
         with open(self.json_path, 'r', encoding='utf8') as f:
-            data = json.load(f)  # преобразуем строку в dict
+            data = json.load(f)  # transform json to dict
             # print(list(data['stages'].keys()))
-        if self.event_name in list(data['stages'].keys()):  # поверяем есть ли event в конфигурации
+        if self.event_name in list(data['stages'].keys()):  # check event in configs
             config = data['stages'][self.event_name]['configurations'][0]['configuration']
             return config
         else:

@@ -1,7 +1,7 @@
-from core.stages.prepare_data_local_json import PrepareDataFromLocalJson
+from core.stages.service_json.prepare_data_local_json import PrepareDataFromLocalJson
 from core.stages.models.task_model import TaskModel, TaskStagesModel, TaskParamsModel
 from core.stages.models.milestone_model import MilestoneModel, RewardModel
-from core.stages.mappings import mapping_name_from_json as mapping
+from core.stages.service_json import mapping_name_from_json as mapping
 
 
 class ParserStagesFromJson:
@@ -74,7 +74,7 @@ class ParserStagesFromJson:
                              map=map_list,
                              map_groups=map_groups_list)
             response.append(task)
-        print(response)
+        # print(response)
         return response
 
     def parse_milestones_data(self, data):
@@ -90,8 +90,8 @@ class ParserStagesFromJson:
                 try:
                     count = i[mapping.milestone_count]
                     token_type_id = i[mapping.token_type_id]
-                except ValueError:
-                    error = f"reward for tasks - {_id} has incorrect values"
+                except KeyError:
+                    error = f"reward for tasks - {_id} has incorrect keys"
                     self.errors.append(error)
                 else:
                     reward = RewardModel(token_type_id, count)
@@ -102,10 +102,18 @@ class ParserStagesFromJson:
                                        icon=icon,
                                        reward=rewards_objects_list)
             response.append(milestone)
-        print(response)
+        # print(response)
         return response
 
     def parse_data(self):
         data_from_json = self.prepare_data_from_local_json(self.event_name).configuration
         self.tasks = self.parse_tasks_data(data_from_json[mapping.tasks])
         self.milestones = self.parse_milestones_data(data_from_json[mapping.milestones])
+
+
+if __name__ == '__main__':
+    stages_data = ParserStagesFromJson('22222_ny23')
+    stages_data.parse_data()
+    print(stages_data.tasks)
+    print(stages_data.milestones)
+    print(stages_data.errors)
