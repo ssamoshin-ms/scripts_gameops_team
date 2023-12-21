@@ -6,6 +6,7 @@ from core.stages.service_json.parser_stages_json import ParserStagesFromJson
 def compare_stages():
 
     # STEP-1: specify link
+    print()
     link = input('Excel. Specify the link:\n').strip()
     link_array = link.split('/')
     sheet_id = link_array[5]
@@ -39,6 +40,7 @@ def compare_stages():
     milestone_data = milestones_data.response_data
 
     # STEP-3: compare score form excel
+    print('EXCEL SCORE')
     for segment, tasks in tasks_data.items():
         tasks_score = 0
         for task in tasks:
@@ -47,10 +49,10 @@ def compare_stages():
         if segment in milestone_data.keys():
             milestone_score = milestone_data[segment][-1].reward_tickets
             if milestone_score != tasks_score:
-                print('EXCEL SCORE')
                 print(f'For {segment} last reward ticket ({milestone_score}) not equal sum of tasks score ({tasks_score})')
 
     # STEP-4: specify event
+    print()
     event = input('JSON. Specify name of event:\n').strip()
 
     # STEP-5: show errors from json

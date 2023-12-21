@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05a2988-c561-45fe-80fd-3e0e09782a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/google/sheets/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/crafts/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/stages/comparing.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/stages/comparing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/stages/service_excel/prepare_data_google.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/stages/service_excel/prepare_data_google.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guidelines.txt" beforeDir="false" afterPath="$PROJECT_DIR$/guidelines.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/google/google_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/google/sheets/google_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/google/google_example.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/google/google_sheets_api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/google/sheets/google_sheets_api_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
