@@ -1,20 +1,19 @@
 import io
 from typing import List, Optional
-
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build, Resource
 from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaIoBaseDownload, MediaFileUpload
+from services.google.secret_manager.google_account import GoogleAccountInfo
 
-from secrets import GoogleAccountInfo
 
 class GoogleApi(GoogleAccountInfo):
     def __init__(self, api_name: str, api_version: str, scope: list):
         super().__init__()
 
-        path = '/Users/samoshinsergey/project/scripts_gameops_team/secrets/key.json'
-        # self.credentials = Credentials.from_service_account_info(self.get_account_info(), scopes=scope)
-        self.credentials = Credentials.from_service_account_file(path, scopes=scope)
+        # path = '/Users/samoshinsergey/project/scripts_gameops_team/secrets/key.json'
+        # self.credentials = Credentials.from_service_account_file(path, scopes=scope)
+        self.credentials = Credentials.from_service_account_info(self.get_account_info(), scopes=scope)
         self.service: Resource = build(api_name, api_version, credentials=self.credentials)
 
     def _get_files_metadata(self, file_id: str) -> Optional[dict]:

@@ -1,4 +1,4 @@
-from services.google.google_sheets_api_client import GSheetsClient
+from services.google.sheets.google_sheets_api_client import GSheetsClient
 
 
 class PrepareDataFromGoogle:
@@ -12,7 +12,7 @@ class PrepareDataFromGoogle:
         try:
             info = self.google_sheets_client.get_all_sheets(self.spread_sheet_id)
         except:
-            print('incorrect spread sheet id or you dont have permission')
+            print("incorrect spread sheet id or you don't have permission for access to sheet \n(share access with 'gcpsa-clientautoqa-gdrive@melsoft-infra.iam.gserviceaccount.com')")
             return
         else:
 
@@ -50,5 +50,11 @@ class PrepareDataFromGoogle:
                 result.append(obj)
             return result
 
+
+if __name__ == '__main__':
+    sheet_id = '1CH5954kzJdSA7mKL-3EpnPEEi1McmSd46yyc8YHAAG4'
+    sheet_name = 'import@Tasks'
+    data_from_google = PrepareDataFromGoogle(sheet_id, sheet_name).get_data_from_google()
+    print(data_from_google)
 
 

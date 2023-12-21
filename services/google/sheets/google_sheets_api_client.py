@@ -1,5 +1,5 @@
 from googleapiclient.errors import HttpError
-from services.google.google_api import GoogleApi
+from services.google.sheets.google_api import GoogleApi
 
 
 class GSheetsClient(GoogleApi):

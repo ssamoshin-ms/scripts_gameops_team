@@ -11,8 +11,6 @@ def compare_stages():
     sheet_id = link_array[5]
 
     # STEP-2: show errors from excel
-    # sheet_id = '1CH5954kzJdSA7mKL-3EpnPEEi1McmSd46yyc8YHAAG4'
-
     tasks_data = ParserTasksFromOutputFile(sheet_id)
     tasks_data.parse_and_validate_data()
     # print(tasks.errors)
@@ -27,7 +25,7 @@ def compare_stages():
 
     milestones_data = ParserMilestonesFromOutputFile(sheet_id)
     milestones_data.parse_and_validate_data()
-    # print(tasks.errors)
+
     if len(milestones_data.errors) > 0:
         print('EXCEL MILESTONE ERRORS')
         milestones_errors = milestones_data.errors
@@ -90,10 +88,6 @@ def compare_stages():
                     map_groups = compare_excel_task_with_json_task(task_json.map_groups, task_excel.map_groups)
 
                     print(f'id: {task_excel.id} / task_type: {task_type} / icon: {icon} / task_params: {task_params} / task_stages: {task_stages} / text_loc_key: {text_loc_key} / maps: {map} / map_groups: {map_groups}')
-
-
-
-
 
 
 if __name__ == '__main__':
