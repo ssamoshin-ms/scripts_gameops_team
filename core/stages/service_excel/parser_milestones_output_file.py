@@ -124,7 +124,7 @@ class ParserMilestonesFromOutputFile:
                 rewards_objects_list.append(new_reward)
 
             milestone = MilestoneModel(id=_id,
-                                       reward_tickets=reward_tickets,
+                                       reward_tickets=ticket,
                                        icon=icon,
                                        reward=rewards_objects_list)
 

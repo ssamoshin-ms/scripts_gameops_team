@@ -41,8 +41,9 @@ class ParserTasksFromOutputFile:
 
     def add_error(self, configuration_name, error):
         keys = list(self.errors.keys())
-        if configuration_name in keys and error not in self.errors[configuration_name]:
-            self.errors[configuration_name].append(error)
+        if configuration_name in keys:
+            if error not in self.errors[configuration_name]:
+                self.errors[configuration_name].append(error)
         else:
             self.errors[configuration_name] = [error]
 

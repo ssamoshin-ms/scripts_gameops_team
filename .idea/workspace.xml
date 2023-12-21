@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05a2988-c561-45fe-80fd-3e0e09782a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/stages/service_excel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/stages/service_json/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/stages/service_json/mapping_name_from_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/stages/service_json/parser_stages_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/stages/service_json/prepare_data_local_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/stages/comparing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/stages/mappings/mapping_name_from_milestones_sheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/stages/service_excel/mapping_name_from_milestones_sheet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/stages/mappings/mapping_name_from_tasks_sheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/stages/service_excel/mapping_name_from_tasks_sheet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/stages/parser_milestones_from_output_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/stages/service_excel/parser_milestones_output_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/stages/parser_tasks_from_output_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/stages/service_excel/parser_tasks_output_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/stages/prepare_data_from_google.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/stages/service_excel/prepare_data_google.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/service_excel/parser_milestones_output_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/stages/service_excel/parser_milestones_output_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/service_excel/parser_tasks_output_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/stages/service_excel/parser_tasks_output_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/samoshinsergey/project/scripts_gameops_team"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/samoshinsergey/project/scripts_gameops_team&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -62,7 +52,28 @@
       <recent name="$PROJECT_DIR$/core" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.parser_tasks_output_file">
+  <component name="RunManager" selected="Python.comparing">
+    <configuration name="comparing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scripts_gameops_team" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/stages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/stages/comparing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="scripts_gameops_team" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,34 +158,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="scripts_gameops_team" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.parser_tasks_output_file" />
+        <item itemvalue="Python.comparing" />
         <item itemvalue="Python.parser_milestones_output_file" />
+        <item itemvalue="Python.parser_tasks_output_file" />
         <item itemvalue="Python.parser_stages_json" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
