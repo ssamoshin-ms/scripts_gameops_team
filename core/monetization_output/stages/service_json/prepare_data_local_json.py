@@ -1,10 +1,12 @@
 import json
+from core import configs
 
+stages_path = configs.json_base_path + configs.stages
 
 class PrepareDataFromLocalJson:
 
-    def __init__(self, event_name):
-        self.json_path = '/Users/samoshinsergey/project/family_island-defold-farm/.map-editor/jsons/stages/stages.json'
+    def __init__(self, event_name, base_path=stages_path):
+        self.json_path = base_path
         self.event_name = event_name
         self.configuration = self.get_data_from_json()
 

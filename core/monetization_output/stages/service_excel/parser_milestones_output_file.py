@@ -1,6 +1,6 @@
-from core.stages.service_excel.prepare_data_google import PrepareDataFromGoogle
-from core.stages.models.milestone_model import MilestoneModel, RewardModel
-from core.stages.service_excel import mapping_name_from_milestones_sheet as mapping
+from core.monetization_output.stages.service_excel.prepare_data_google import PrepareDataFromGoogle
+from core.monetization_output.stages.models.milestone_model import MilestoneModel, RewardModel
+from core.monetization_output.stages.service_excel import mapping_name_from_milestones_sheet as mapping
 
 
 class ParserMilestonesFromOutputFile:

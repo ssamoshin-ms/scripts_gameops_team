@@ -1,14 +1,22 @@
-turn on environment
-1. install env
-- python3 -m venv .venv
-2. activate env
-- source .venv/bin/activate
-3. install packages
-- pip3 install -r requirements.txt
+CHECK
+1. need to check Python version
+python3 --version
 
-secrets
-1. install lib
-- pip3 install python-dotenv
-2. create file .env
+2. need to check availability package manager
+pip3 --version
 
-"gcpsa-clientautoqa-gdrive@melsoft-infra.iam.gserviceaccount.com"
+3. need to set up environment
+python3 -m venv .venv
+
+4. need to launch environment in our folder (you need to open terminal in our folder and run command)
+source .venv/bin/activate
+
+5. than install libraries
+pip3 install -r requirements.txt
+
+6. update script on your device
+go to configs.py
+1. find json_base_path and specify your path to json folder on your device (example: /Users/samoshinsergey/project/family_island-defold-farm/.map-editor/jsons)
+
+email for sharing
+gcpsa-clientautoqa-gdrive@melsoft-infra.iam.gserviceaccount.com

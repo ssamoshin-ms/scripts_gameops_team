@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05a2988-c561-45fe-80fd-3e0e09782a54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/models/chop_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/models/generator_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/service_excel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/service_json/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/service_json/parse_json_to_chop_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/service_json/prepare_data_local_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/monetization_output/crafts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/monetization_output/stages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/monetization_output/stages/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_json/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/stages/comparing.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/stages/comparing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/crafts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/configs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/comparing.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/comparing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/models/milestone_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/models/milestone_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/models/task_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/models/task_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/service_excel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/service_excel/mapping_name_from_milestones_sheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/mapping_name_from_milestones_sheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/service_excel/mapping_name_from_tasks_sheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/mapping_name_from_tasks_sheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/service_excel/parser_milestones_output_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_milestones_output_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/service_excel/parser_tasks_output_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_tasks_output_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/service_excel/prepare_data_google.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/prepare_data_google.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/service_json/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/models/bed_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/service_json/mapping_name_from_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_json/mapping_name_from_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/service_json/parser_stages_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_json/parser_stages_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/stages/service_json/prepare_data_local_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_json/prepare_data_local_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guidelines.txt" beforeDir="false" afterPath="$PROJECT_DIR$/guidelines.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +69,35 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/monetization_output" />
+      <recent name="$PROJECT_DIR$/core/event_model" />
       <recent name="$PROJECT_DIR$/services/google/secret_manager" />
       <recent name="$PROJECT_DIR$/services/google/sheets" />
       <recent name="$PROJECT_DIR$/core/stages/service_excel" />
-      <recent name="$PROJECT_DIR$/core/stages/json_service" />
-      <recent name="$PROJECT_DIR$/core/stages/mappings" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.comparing">
+  <component name="RunManager" selected="Python.comparing (1)">
+    <configuration name="comparing (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scripts_gameops_team" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/monetization_output/stages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/monetization_output/stages/comparing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="comparing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="scripts_gameops_team" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,27 +132,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/stages/service_excel/parser_milestones_output_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="parser_tasks_output_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="scripts_gameops_team" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/stages/service_excel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/stages/service_excel/parser_tasks_output_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.comparing (1)" />
         <item itemvalue="Python.comparing" />
         <item itemvalue="Python.prepare_data_google" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.parser_milestones_output_file" />
-        <item itemvalue="Python.parser_tasks_output_file" />
       </list>
     </recent_temporary>
   </component>

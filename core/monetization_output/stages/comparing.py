@@ -1,6 +1,6 @@
-from core.stages.service_excel.parser_tasks_output_file import ParserTasksFromOutputFile
-from core.stages.service_excel.parser_milestones_output_file import ParserMilestonesFromOutputFile
-from core.stages.service_json.parser_stages_json import ParserStagesFromJson
+from core.monetization_output.stages.service_excel.parser_tasks_output_file import ParserTasksFromOutputFile
+from core.monetization_output.stages.service_excel.parser_milestones_output_file import ParserMilestonesFromOutputFile
+from core.monetization_output.stages.service_json.parser_stages_json import ParserStagesFromJson
 
 
 def compare_stages():
@@ -40,7 +40,7 @@ def compare_stages():
     milestone_data = milestones_data.response_data
 
     # STEP-3: compare score form excel
-    print('EXCEL SCORE')
+
     for segment, tasks in tasks_data.items():
         tasks_score = 0
         for task in tasks:
@@ -48,8 +48,11 @@ def compare_stages():
                 tasks_score = tasks_score + i.score
         if segment in milestone_data.keys():
             milestone_score = milestone_data[segment][-1].reward_tickets
+            print('EXCEL SCORE')
             if milestone_score != tasks_score:
-                print(f'For {segment} last reward ticket ({milestone_score}) not equal sum of tasks score ({tasks_score})')
+                print(f'For {segment} last reward ticket ({milestone_score}) does not equal sum of tasks score ({tasks_score})')
+            else:
+                print(f'For {segment} last reward ticket ({milestone_score}) equals sum of tasks score ({tasks_score})')
 
     # STEP-4: specify event
     print()
