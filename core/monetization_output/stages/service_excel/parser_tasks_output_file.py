@@ -1,5 +1,5 @@
 from core.monetization_output.stages.service_excel.prepare_data_google import PrepareDataFromGoogle
-from core.monetization_output.stages.models.task_model import TaskModel, TaskStagesModel, TaskParamsModel
+from core.models.task_model import TaskModel, TaskStagesModel, TaskParamsModel
 from core.monetization_output.stages.service_excel import mapping_name_from_tasks_sheet as names_from_sheet
 
 

@@ -1,6 +1,6 @@
 from core.monetization_output.stages.service_json.prepare_data_local_json import PrepareDataFromLocalJson
-from core.monetization_output.stages.models.task_model import TaskModel, TaskStagesModel, TaskParamsModel
-from core.monetization_output.stages.models.milestone_model import MilestoneModel, RewardModel
+from core.models.task_model import TaskModel, TaskStagesModel, TaskParamsModel
+from core.models import MilestoneModel, RewardModel
 from core.monetization_output.stages.service_json import mapping_name_from_json as mapping
 
 
