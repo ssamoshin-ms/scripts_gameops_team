@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05a2988-c561-45fe-80fd-3e0e09782a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/models/buildings_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/models/custom_upgrade_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/models/items_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/models/maps_settings_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/models/pickups_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/models/plants_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/models/resource_events_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/models/skip_tickets_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/models/bed_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/models/chop_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/models/generator_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/event_model/crafting_and_pricing/service_excel/prepare_data_google.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/models/milestone_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models/milestone_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/models/task_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models/task_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_milestones_output_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_milestones_output_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_tasks_output_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_tasks_output_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/prepare_data_google.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/prepare_data_google.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/service_json/parser_stages_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_json/parser_stages_json.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +54,7 @@
       <recent name="$PROJECT_DIR$/services/google/secret_manager" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prepare_data_google (1)">
+  <component name="RunManager" selected="Python.comparing (1)">
     <configuration name="comparing (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="scripts_gameops_team" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="comparing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="parser_milestones_output_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="scripts_gameops_team" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/stages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/monetization_output/stages/service_excel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/stages/comparing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_milestones_output_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prepare_data_google (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="parser_stages_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="scripts_gameops_team" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +105,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/event_model/crafting_and_pricing/service_excel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/monetization_output/stages/service_json" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/event_model/crafting_and_pricing/service_excel/prepare_data_google.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/monetization_output/stages/service_json/parser_stages_json.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/stages/service_excel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/monetization_output/stages/service_excel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/stages/service_excel/prepare_data_google.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/monetization_output/stages/service_excel/prepare_data_google.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="scripts_gameops_team" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.prepare_data_google (1)" />
         <item itemvalue="Python.comparing (1)" />
-        <item itemvalue="Python.comparing" />
+        <item itemvalue="Python.parser_stages_json" />
+        <item itemvalue="Python.parser_milestones_output_file" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.prepare_data_google" />
-        <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>

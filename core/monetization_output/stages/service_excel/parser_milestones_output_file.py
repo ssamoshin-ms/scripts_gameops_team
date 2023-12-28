@@ -60,6 +60,7 @@ class ParserMilestonesFromOutputFile:
                     self.add_error(configuration_name, error)
 
             reward_tickets = self.get_value_by_key_in_dict(mapping.reward_tickets, i)
+            ticket = 0
             if not reward_tickets:
                 error = {_id: "reward_tickets field is empty"}
                 self.add_error(configuration_name, error)
@@ -68,7 +69,8 @@ class ParserMilestonesFromOutputFile:
                 self.add_error(configuration_name, error)
             else:
                 try:
-                    ticket = int(reward_tickets.replace(',', ''))
+                    for_int_ticket = reward_tickets.replace(',', '').split('.')
+                    ticket = int(for_int_ticket[0])
                 except ValueError:
                     error = {_id: "reward_tickets has incorrect value"}
                     self.add_error(configuration_name, error)
@@ -137,7 +139,7 @@ class ParserMilestonesFromOutputFile:
 
 
 if __name__ == '__main__':
-    sheet_id = '1CH5954kzJdSA7mKL-3EpnPEEi1McmSd46yyc8YHAAG4'
+    sheet_id = '1iPuei0kaWLeSqiCOjh6mrKWJcwsMqVOAJ3lik2kXeqU'
     milestones = ParserMilestonesFromOutputFile(sheet_id)
     milestones.parse_and_validate_data()
     print(milestones.errors)

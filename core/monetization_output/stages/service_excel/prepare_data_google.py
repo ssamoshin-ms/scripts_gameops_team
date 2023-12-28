@@ -52,8 +52,8 @@ class PrepareDataFromGoogle:
 
 
 if __name__ == '__main__':
-    sheet_id = '1CH5954kzJdSA7mKL-3EpnPEEi1McmSd46yyc8YHAAG4'
-    sheet_name = 'import@Tasks'
+    sheet_id = '1iPuei0kaWLeSqiCOjh6mrKWJcwsMqVOAJ3lik2kXeqU'
+    sheet_name = 'import@Milestones'
     data_from_google = PrepareDataFromGoogle(sheet_id, sheet_name).get_data_from_google()
     print(data_from_google)
 

@@ -47,7 +47,7 @@ class ParserStagesFromJson:
                     task_params_objects_list.append(task_param_object)
                 elif mapping.param_sint in keys:
                     param_type = mapping.sint32
-                    param = i[mapping.param_sint]
+                    param = str(i[mapping.param_sint])
                     task_param_object = TaskParamsModel(param_type, param)
                     task_params_objects_list.append(task_param_object)
                 else:
@@ -112,7 +112,7 @@ class ParserStagesFromJson:
 
 
 if __name__ == '__main__':
-    stages_data = ParserStagesFromJson('22222_ny23')
+    stages_data = ParserStagesFromJson('23196_ny24')
     stages_data.parse_data()
     print(stages_data.tasks)
     print(stages_data.milestones)
