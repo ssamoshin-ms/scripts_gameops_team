@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05a2988-c561-45fe-80fd-3e0e09782a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stages_comparing.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_milestones_output_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_milestones_output_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_tasks_output_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_tasks_output_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/prepare_data_google.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/prepare_data_google.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/service_json/parser_stages_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_json/parser_stages_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/service_json/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_json/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guidelines.txt" beforeDir="false" afterPath="$PROJECT_DIR$/guidelines.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,10 +168,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.comparing (1)" />
-        <item itemvalue="Python.parser_stages_json" />
-        <item itemvalue="Python.parser_milestones_output_file" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.prepare_data_google" />
+        <item itemvalue="Python.parser_milestones_output_file" />
+        <item itemvalue="Python.parser_stages_json" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>

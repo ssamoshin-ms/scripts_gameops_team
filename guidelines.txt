@@ -6,17 +6,22 @@ python3 --version
 pip3 --version
 
 3. need to set up environment
-python3 -m venv .venv
+python3 -m venv venv
 
 4. need to launch environment in our folder (you need to open terminal in our folder and run command)
-source .venv/bin/activate
+source venv/bin/activate
 
 5. than install libraries
 pip3 install -r requirements.txt
 
 6. update script on your device
-go to configs.py
+go to core/monetization_output/stages/configs.py
 1. find json_base_path and specify your path to json folder on your device (example: /Users/samoshinsergey/project/family_island-defold-farm/.map-editor/jsons)
 
 email for sharing
 gcpsa-clientautoqa-gdrive@melsoft-infra.iam.gserviceaccount.com
+
+
+check brew
+install brew
+brew install --cask google-cloud-sdk
