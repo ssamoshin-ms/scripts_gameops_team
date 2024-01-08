@@ -102,16 +102,12 @@ class ParserMilestonesFromOutputFile:
                     try:
                         if len(reward_part) == 2:
                             if reward_part[0] == mapping.token_type_id:
-                                if self.check_spaces(reward_part[1]):
-                                    raise ValueError
-                                elif len(reward_part[1]) == 0:
+                                if len(reward_part[1]) == 0:
                                     raise ValueError
                                 else:
                                     token_type_id = reward_part[1]
                             elif reward_part[0] == mapping.count:
-                                if self.check_spaces(reward_part[1]):
-                                    raise ValueError
-                                elif not int(reward_part[1]) > 0:
+                                if not int(reward_part[1]) > 0:
                                     raise ValueError
                                 else:
                                     count = int(reward_part[1])
@@ -139,7 +135,7 @@ class ParserMilestonesFromOutputFile:
 
 
 if __name__ == '__main__':
-    sheet_id = '1m21PuPsSdU25fJzOLCIU1J8VfwUPPkjEfgacW0_4mVU'
+    sheet_id = '1wHq22K5mG5_7cZ6F_k3K5ZL3-Eu6enTwjTgtsw5Dvjs'
     milestones = ParserMilestonesFromOutputFile(sheet_id)
     milestones.parse_and_validate_data()
     print(milestones.errors)

@@ -1,3 +1,6 @@
+email for sharing google sheets
+gcpsa-clientautoqa-gdrive@melsoft-infra.iam.gserviceaccount.com
+
 CHECK
 1. need to check Python version
 python3 --version
@@ -5,7 +8,7 @@ python3 --version
 2. need to check availability package manager
 pip3 --version
 
-3. need to set up environment
+3. need to set up environment (you need to open terminal in our folder and run command)
 python3 -m venv venv
 
 4. need to launch environment in our folder (you need to open terminal in our folder and run command)
@@ -15,13 +18,14 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 
 6. update script on your device
-go to core/monetization_output/stages/configs.py
+go to core/configs.py
 1. find json_base_path and specify your path to json folder on your device (example: /Users/samoshinsergey/project/family_island-defold-farm/.map-editor/jsons)
 
-email for sharing
-gcpsa-clientautoqa-gdrive@melsoft-infra.iam.gserviceaccount.com
+you need install:
+brew
+google-cloud-sdk (brew install --cask google-cloud-sdk)
 
+after install perform:
+gcloud init
+gcloud auth application-default login
 
-check brew
-install brew
-brew install --cask google-cloud-sdk
