@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05a2988-c561-45fe-80fd-3e0e09782a54" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_milestones_output_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/monetization_output/stages/service_excel/parser_milestones_output_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guidelines.txt" beforeDir="false" afterPath="$PROJECT_DIR$/guidelines.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
