@@ -18,10 +18,6 @@ on:
         type: string
         required: true
 
-
-permissions:
-  contents: read
-
 jobs:
   build:
     runs-on:
@@ -43,17 +39,18 @@ jobs:
         pip list
 
     - name: Authenticate to GCP
-        id: auth
-        uses: google-github-actions/auth@v1
-        with:
-          token_format: 'access_token'
-          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
-          service_account: ${{ secrets.GCP_WIF_GAME_CONTROL_CI_SA }}
-          access_token_lifetime: '600s'
+      id: auth
+      uses: google-github-actions/auth@v1
+      with:
+        token_format: 'access_token'
+        workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
+        service_account: ${{ secrets.GCP_WIF_GAME_CONTROL_CI_SA }}
+        access_token_lifetime: '600s'
     - name: Pull secrets from secret manager
-        id: pull-secrets
-        uses: google-github-actions/get-secretmanager-secrets@v1
-        with:
-          secrets: |-
-            ma_user:${{ secrets.MA_USER_SECRET }}
-            ma_password:${{ secrets.MA_PASSWORD_SECRET }}
+      id: pull-secrets
+      uses: google-github-actions/get-secretmanager-secrets@v1
+      with:
+        secrets: |-
+          ma_user:${{ secrets.MA_USER_SECRET }}
+          ma_password:${{ secrets.MA_PASSWORD_SECRET }}
+
