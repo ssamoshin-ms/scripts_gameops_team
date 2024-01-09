@@ -30,4 +30,5 @@ gcloud init
 gcloud auth application-default login
 
 run necessary script
+action
 
