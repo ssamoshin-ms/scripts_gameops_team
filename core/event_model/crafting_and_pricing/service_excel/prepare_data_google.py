@@ -41,14 +41,7 @@ class PrepareDataFromGoogle:
         except:
             print(f'incorrect sheet name. we dont have {self.sheet_name} among sheets names')
         else:
-            print(data['values'])
-            result = []
-            for row in data['values'][1::]:
-                obj = {}
-                for index, value in enumerate(row):
-                    obj[data['values'][0][index]] = value
-                result.append(obj)
-            return result
+            return data['values']
 
 
 if __name__ == '__main__':
